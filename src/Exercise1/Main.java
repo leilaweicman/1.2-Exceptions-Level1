@@ -11,10 +11,10 @@ public class Main {
         }
 
         try {
-            sale.addProduct(new Product("Producto1", 10));
-            sale.addProduct(new Product("Producto2", 10));
+            sale.addProduct(new Product("Product1", 10));
+            sale.addProduct(new Product("Product2", 10));
             sale.calculateTotal();
-            System.out.println(sale.getTotalPrice());
+            System.out.println("Total price: " + sale.getTotalPrice());
         } catch (EmptySaleException e) {
             System.out.println(e.getMessage());
         }
