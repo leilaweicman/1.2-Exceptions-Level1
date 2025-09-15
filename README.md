@@ -39,7 +39,7 @@ This project contains the solution to the following Java exercise:
 Clone the repository and access the project folder:
 
 ```sh
-git clone https://github.com/USER/1.3-Sales-And-Exceptions-Level1.git
+git clone https://github.com/leilaweicman/1.2-Exceptions-Level1.git
 cd 1.2-Exceptions-Level1
 ```
 
